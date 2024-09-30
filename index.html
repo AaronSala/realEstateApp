@@ -4,20 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>real Estate App</title>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="index.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="header-hero-container">
@@ -30,6 +28,7 @@
               <span class="strip"></span>
               <span class="strip"></span>
             </button>
+        
 
             <ul id="nav-menu">
               <li><a href="#" class="active">Home</a></li>
@@ -38,7 +37,9 @@
               <li><a href="#">Contacts</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">News</a></li>
+              <li id="close-flyout"><span class="fas fa-times"></span></li>
             </ul>
+           
           </nav>
         </div>
       </header>
@@ -451,5 +452,7 @@
         <span class="fa fas-heart"></span> by Aaron</small
       >
     </footer>
+
+
   </body>
 </html>

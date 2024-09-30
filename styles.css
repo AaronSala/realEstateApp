@@ -139,7 +139,8 @@ header ul li{
     margin: 0 15px;
 }
 #close-flyout{
-     display: none;
+     display:none ;
+    
 }
 
 header ul li a{
@@ -234,6 +235,7 @@ font-size: 1rem;
 #properties{
     margin: 4rem 0 8rem;
     position: relative;
+
 }
 
 #properties h2{
@@ -242,6 +244,7 @@ font-size: 1rem;
 
 #properties .container{
     position : relative;
+    
 }
 
 #properties .container:before{
@@ -257,6 +260,7 @@ font-size: 1rem;
     position: absolute;
     top: -78px;
     right: 0;
+
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     text-decoration: none;
@@ -265,13 +269,16 @@ font-size: 1rem;
 #properties-slider a.slick-prev{
     right: 80px;
 }
-#properties-slider a.slick-slide{
-    padding: 0 15px;
+
+#properties-slider .slick-slide{
+    padding: 0 15px; 
 }
 
 #properties-slider img{
     width: 100%;
+    height: 20vh;
     display: block;
+   
 }
 
 #properties-slider .property-details{
@@ -465,7 +472,7 @@ height: 60px;
     top: 50%;
     margin-top: -35px;
 }
-#testimonials-slider .slic-knext{
+#testimonials-slider .slick-next{
     right: 0;
 }
 /* end testimnial styles */
@@ -701,6 +708,7 @@ footer small a:hover{
         height: 100%;
         box-sizing: border-box;
         box-shadow: 5px 0 10px 3px #999;
+        width: 40vw;
     }
 
     #close-flyout{
@@ -710,8 +718,10 @@ footer small a:hover{
         color: #777;
         cursor: pointer;
         display: block;
-        line-height: 1;
+        line-height: 2;
         margin: 0;
+        top: 1px;
+        margin-left: 28rem;
     }
     nav ul li{
         display: block;
@@ -883,7 +893,7 @@ footer small a:hover{
 
     }
 
-    #testimonils-slider .slick-arrow{
+    #testimonials-slider .slick-arrow{
         display: none !important;
     }
 
